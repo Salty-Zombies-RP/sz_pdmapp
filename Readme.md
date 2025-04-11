@@ -1,11 +1,5 @@
-# LB Phone - Vanilla JS Template
-You can open the index.html file in your browser while editing the UI. Ensuring the script will add the app to your phone.
+# PDM Dealership Application
+[![Building & Releasing](https://github.com/Salty-Zombies-RP/sz_pdmapp/actions/workflows/release.yml/badge.svg)](https://github.com/Salty-Zombies-RP/sz_pdmapp/actions/workflows/release.yml) ![GitHub Release](https://img.shields.io/github/v/release/Salty-Zombies-RP/sz_pdmapp)
 
-You need to wait for the components to load before you can use them. You can listen for the `componentsLoaded` message to know when the components are ready.
-
-```js
-window.addEventListener("message", (e) => {
-    if (e.data !== "componentsLoaded") return;
-    // Here you can access the components
-});
-```
+## TODO
+- Write the Readme
