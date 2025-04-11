@@ -1,0 +1,27 @@
+Config = Config or {}
+
+Config.vehicleCategories = {
+    { label = 'Compacts', id = 'compacts' },
+    { label = 'Sedans', id = 'sedans' },
+    { label = 'SUVs', id = 'suvs' },
+    { label = 'Coupes', id = 'coupes' },
+    { label = 'Muscle', id = 'muscle' },
+    { label = 'Classic Sports', id = 'sportsclassics' },
+    { label = 'Sports', id = 'sports' },
+    { label = 'Super', id = 'super' },
+    { label = 'Motorcycles', id = 'motorcycles' },
+    { label = 'Off-Road', id = 'offroad' },
+    { label = 'Utility', id = 'utility' },
+    { label = 'Vans', id = 'vans' },
+    { label = 'Cycles', id = 'cycles' },
+    { label = 'Boats', id = 'boats' },
+    { label = 'Commercial', id = 'commercial' },
+    { label = 'Emergency', id = 'emergency' },
+    { label = 'Helicopters', id = 'helicopters' },
+    { label = 'Industrial', id = 'industrial' },
+    { label = 'Military', id = 'military' },
+    { label = 'Open Wheel', id = 'openwheel' },
+    { label = 'Planes', id = 'planes' },
+    { label = 'Service', id = 'service' },
+    { label = 'Trains', id = 'trains' },
+}
