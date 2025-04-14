@@ -20,7 +20,7 @@ jobs:
 
     - name: Update Manifest Version
       run: |
-         sed -i "s|version \"[^\"]*\"|version \"${VERSION}\"|" fxmanifest.lua
+         sed -i "s|^version \"[^\"]*\"|version \"${VERSION}\"|" fxmanifest.lua
 
     - name: Create Releasable
       run: |
